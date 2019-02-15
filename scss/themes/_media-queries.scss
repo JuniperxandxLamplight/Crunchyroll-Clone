@@ -1,0 +1,96 @@
+@media screen and (max-width: 1030px){
+  .left{
+    .simulcasts{
+      div{
+        display: flex;
+        flex-direction: column;
+      }
+      img{
+        margin-bottom: 5px;
+      }
+      .episodes{
+        float: none;
+        align-self: baseline;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 990px){
+  header {
+    .search-bar{
+      display: none;
+    }
+    .search p{
+      display: block;
+    }
+  }
+  .right{
+    .forum{
+      div{
+        flex-direction: column;
+      }
+    }
+  }
+}
+@media screen and (max-width: 769px){
+  header{
+    .menu{
+      display: none;
+    }
+    .menu-icon{
+      display: block;
+    }
+    .random{
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 426px){
+  header .header-content {
+    justify-content: space-between;
+    .login{
+      margin-left: 5px;
+    }
+  }
+  .games{
+    display: none;
+  }
+  main .main-page-layout{
+    flex-direction: column;
+  }
+  h3{
+    text-align: center;
+  }
+  .left{
+    width: 96%;
+
+    .simulcasts{
+      div{
+        width: 100%;
+        align-items: center;
+      }
+    }
+  }
+  .right{
+    width: 96%;
+    .featured{
+      h4{
+        font-size: 20px;
+        text-align: center;
+      }
+      img{
+        width: 100px;
+        height: 150px;
+      }
+    }
+    .lineup{
+      text-align: center;
+      padding: 5px;
+    }
+    .forum{
+      text-align: center;
+    }
+  }
+}

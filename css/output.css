@@ -229,6 +229,9 @@ header {
 header .login {
   margin-left: auto;
 }
+header .search p {
+  display: none;
+}
 header div {
   margin-right: 1%;
 }
@@ -265,6 +268,91 @@ main {
   padding: 5px 10px;
   background-color: #fffad8;
   border: 1px solid orange;
+}
+
+@media screen and (max-width: 1030px) {
+  .left .simulcasts div {
+    display: flex;
+    flex-direction: column;
+  }
+  .left .simulcasts img {
+    margin-bottom: 5px;
+  }
+  .left .simulcasts .episodes {
+    float: none;
+    align-self: baseline;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 990px) {
+  header .search-bar {
+    display: none;
+  }
+  header .search p {
+    display: block;
+  }
+
+  .right .forum div {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 769px) {
+  header .menu {
+    display: none;
+  }
+  header .menu-icon {
+    display: block;
+  }
+  header .random {
+    display: none;
+  }
+}
+@media screen and (max-width: 426px) {
+  header .header-content {
+    justify-content: space-between;
+  }
+  header .header-content .login {
+    margin-left: 5px;
+  }
+
+  .games {
+    display: none;
+  }
+
+  main .main-page-layout {
+    flex-direction: column;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .left {
+    width: 96%;
+  }
+  .left .simulcasts div {
+    width: 100%;
+    align-items: center;
+  }
+
+  .right {
+    width: 96%;
+  }
+  .right .featured h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .right .featured img {
+    width: 100px;
+    height: 150px;
+  }
+  .right .lineup {
+    text-align: center;
+    padding: 5px;
+  }
+  .right .forum {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
