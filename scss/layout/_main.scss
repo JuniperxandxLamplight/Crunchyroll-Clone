@@ -1,0 +1,11 @@
+main{
+  width: 96%;
+  max-width: 960px;
+  margin: 20px auto;
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+  }
+}

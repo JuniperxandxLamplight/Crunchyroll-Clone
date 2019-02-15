@@ -2,9 +2,11 @@ header{
   width: 96%;
   .header-content{
     width: 100%;
+    max-width: 960px;
     height: 60px;
     display: flex;
     align-items: center;
+    margin: auto;
   }
   .menu-icon{
     display: none;

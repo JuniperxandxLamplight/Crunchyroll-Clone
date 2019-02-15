@@ -1,6 +1,5 @@
 header{
-  background-color: white;
-  box-shadow: 0px 5px 10px lightgray;
+  @include boxes;
   padding: 0 2%;
   .login{
     margin-left: auto;

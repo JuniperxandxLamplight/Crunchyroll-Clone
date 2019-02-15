@@ -39,10 +39,44 @@ table {
   border-spacing: 0;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 header {
   color: #a0a0a0;
   font-size: 13px;
   text-align: center;
+}
+
+.banner {
+  font-size: 12px;
+  color: #3d63ff;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.simulcasts div h4 {
+  font-weight: bold;
+}
+.simulcasts div .time-zone {
+  font-size: 12px;
+  color: gray;
+  font-style: italic;
+}
+.simulcasts div .episodes {
+  font-size: 12px;
+}
+.simulcasts div .fas {
+  color: orange;
 }
 
 header {
@@ -50,12 +84,52 @@ header {
 }
 header .header-content {
   width: 100%;
+  max-width: 960px;
   height: 60px;
   display: flex;
   align-items: center;
+  margin: auto;
 }
 header .menu-icon {
   display: none;
+}
+
+main {
+  width: 96%;
+  max-width: 960px;
+  margin: 20px auto;
+}
+main .banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+.left {
+  width: 60%;
+  margin: 20px 0;
+  padding: 0 2%;
+}
+.left .simulcasts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.left .simulcasts div {
+  width: 49%;
+}
+.left .simulcasts img {
+  width: 140px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+.left .simulcasts .episodes {
+  margin-top: 3px;
+  float: right;
+}
+.left h2 {
+  padding: 15px 0px;
 }
 
 .logo img {
@@ -66,8 +140,16 @@ header .menu-icon {
   height: 25px;
 }
 
-body {
-  background-color: #f2f2f2;
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  background-color: #b9edf7;
+  border: 1px solid blue;
+  margin: 9px;
+  border-radius: 5px;
 }
 
 header {
@@ -80,6 +162,26 @@ header .login {
 }
 header div {
   margin-right: 1%;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+main {
+  background-color: white;
+  box-shadow: 0px 5px 10px lightgray;
+  padding-top: 1px;
+}
+
+.left h3 {
+  margin-top: 30px;
+  border-bottom: 1px solid gray;
+}
+.left h2 {
+  background-image: linear-gradient(white, lightgray);
+  border: 1px solid lightgray;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=output.css.map */

@@ -1,0 +1,27 @@
+.left{
+  width: 60%;
+  margin: 20px 0;
+  padding: 0 2%;
+
+  .simulcasts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    div{
+      width: 49%;
+    }
+    img{
+      width: 140px;
+      margin-top: 3px;
+      margin-bottom: 15px;
+    }
+    .episodes{
+      margin-top: 3px;
+      float: right;
+    }
+  }
+  h2{
+    padding: 15px 0px;
+  }
+}
