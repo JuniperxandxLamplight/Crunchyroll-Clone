@@ -99,11 +99,22 @@ main {
   max-width: 960px;
   margin: 20px auto;
 }
+main .main-page-layout {
+  display: flex;
+}
 main .banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 8px 12px;
+}
+
+.right {
+  width: 32%;
+  margin: 20px 2%;
+}
+.right h4 {
+  padding-bottom: 20px;
 }
 
 .left {
@@ -136,13 +147,25 @@ main .banner {
   height: 25px;
 }
 
+.games img {
+  height: 60px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .menu img {
   height: 25px;
 }
 
 .carousel img {
-  width: 100%;
+  width: 95%;
   height: auto;
+}
+
+.games {
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .banner {
@@ -174,8 +197,11 @@ main {
   padding-top: 1px;
 }
 
+.left {
+  border-right: 1px solid gray;
+}
 .left h3 {
-  margin-top: 30px;
+  margin: 30px 0px;
   border-bottom: 1px solid gray;
 }
 .left h2 {

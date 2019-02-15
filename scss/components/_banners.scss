@@ -1,3 +1,9 @@
+.games{
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
 .banner{
   background-color: #b9edf7;
   border: 1px solid blue;
