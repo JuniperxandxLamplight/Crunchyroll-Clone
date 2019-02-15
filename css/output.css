@@ -80,8 +80,11 @@ h3 {
   color: orange;
 }
 
-.featured {
+.right {
   font-size: 13px;
+}
+
+.featured {
   font-weight: bold;
 }
 .featured .videos {
@@ -89,6 +92,20 @@ h3 {
   color: gray;
   font-style: italic;
   font-weight: normal;
+}
+
+.lineup {
+  text-align: center;
+}
+.lineup p span {
+  color: orange;
+}
+
+.forum h3 {
+  font-size: 16px;
+}
+.forum h6 {
+  font-style: italic;
 }
 
 header {
@@ -137,6 +154,13 @@ main .banner {
 .right .featured .title-flex {
   flex-direction: column;
   margin-top: 10px;
+}
+.right .forum div {
+  display: flex;
+  justify-content: space-between;
+}
+.right .forum div p, .right .forum div h6 {
+  margin-bottom: 10px;
 }
 
 .left {
@@ -191,7 +215,7 @@ main .banner {
 }
 
 .banner {
-  background-color: #b9edf7;
+  background-color: #e5fffe;
   border: 1px solid blue;
   margin: 9px;
   border-radius: 5px;
@@ -230,6 +254,17 @@ main {
   background-image: linear-gradient(white, lightgray);
   border: 1px solid lightgray;
   border-radius: 5px;
+}
+
+.right h3 {
+  margin: 30px 0px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+.right .lineup {
+  padding: 5px 10px;
+  background-color: #fffad8;
+  border: 1px solid orange;
 }
 
 /*# sourceMappingURL=output.css.map */

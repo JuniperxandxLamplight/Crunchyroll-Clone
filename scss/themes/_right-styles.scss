@@ -1,0 +1,11 @@
+.right{
+  h3{
+    @include header;
+    margin-bottom: 10px;
+  }
+  .lineup{
+    padding: 5px 10px;
+    background-color: #fffad8;
+    border: 1px solid orange;
+  }
+}

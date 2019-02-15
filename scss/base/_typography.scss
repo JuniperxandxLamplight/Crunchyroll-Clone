@@ -38,11 +38,28 @@ h3{
   }
 }
 
-.featured{
+.right{
   font-size: 13px;
+}
+.featured{
   font-weight: bold;
 
   .videos{
     @include secondary;
+  }
+}
+.lineup{
+  text-align: center;
+
+  p span{
+    color: orange;
+  }
+}
+.forum{
+  h3{
+    font-size: 16px;
+  }
+  h6{
+    font-style: italic;
   }
 }

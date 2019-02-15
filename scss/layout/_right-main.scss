@@ -18,4 +18,14 @@
       margin-top: 10px;
     }
   }
+  .forum{
+    div{
+      display: flex;
+      justify-content: space-between;
+
+      p, h6{
+      margin-bottom: 10px;
+      }
+    }
+  }
 }

@@ -2,8 +2,7 @@
   border-right: 1px solid gray;
 
   h3{
-    margin: 30px 0px;
-    border-bottom: 1px solid gray;
+    @include header;
   }
   h2{
     background-image: linear-gradient(white, lightgray);
