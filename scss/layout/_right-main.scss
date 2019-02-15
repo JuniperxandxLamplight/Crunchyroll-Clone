@@ -5,4 +5,17 @@
   h4{
     padding-bottom: 20px;
   }
+  .featured{
+    div{
+      display: flex;
+
+      img{
+        margin: 0px 10px 10px 0px;
+      }
+    }
+    .title-flex{
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  }
 }

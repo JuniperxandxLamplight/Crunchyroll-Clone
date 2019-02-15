@@ -28,14 +28,21 @@ h3{
     font-weight: bold;
   }
   .time-zone{
-    font-size: 12px;
-    color: gray;
-    font-style: italic;
+    @include secondary;
   }
   .episodes{
     font-size: 12px;
   }
   .fas{
     color: orange;
+  }
+}
+
+.featured{
+  font-size: 13px;
+  font-weight: bold;
+
+  .videos{
+    @include secondary;
   }
 }
